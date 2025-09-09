@@ -418,8 +418,8 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label1.BackColor = Color.Transparent;
-            label1.Dock = DockStyle.Fill;
             label1.Font = new Font("Cambria Math", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ActiveCaptionText;
             label1.Location = new Point(3, 0);
@@ -430,8 +430,8 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             label2.BackColor = Color.Transparent;
-            label2.Dock = DockStyle.Fill;
             label2.Font = new Font("Cambria Math", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ActiveCaptionText;
             label2.Location = new Point(3, 62);
@@ -445,6 +445,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(755, 627);
+            MinimumSize = new Size(400, 700);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
             Text = "Calculator";
